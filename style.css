@@ -38,6 +38,11 @@ a:hover {
     background-size: cover;
     position: relative;
 }
+.keywords
+{
+    color:#cccccc;
+    font-size:1px;
+}
 
 .bloc .container {
     padding-left: 0;
