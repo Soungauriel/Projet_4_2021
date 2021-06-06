@@ -360,7 +360,10 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
+strong
+{
+    font-size: 18px;
+}
 
 
 @media (min-width: 768px) {
