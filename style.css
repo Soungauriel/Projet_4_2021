@@ -829,8 +829,8 @@ h4 {
 
 @media (max-width: 1024px) {
     .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
@@ -839,9 +839,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    body{
-        width: 100%;
-    }
+    
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -851,16 +849,12 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
-    body{
-        width: 100%;
-    }
+    
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
-    }body{
-        width: 100%;
     }
 
 }
@@ -869,16 +863,11 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    body{
-        width: 100%;
-    }
 
 }
 
 @media (max-width: 991px) {
-    body{
-        width: 100%;
-    }
+    
     .container {
         width: 100%;
     }
@@ -908,9 +897,6 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    body{
-        width: 100%;
-    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1051,10 +1037,8 @@ h4 {
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }body{
-        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 }
@@ -1062,8 +1046,6 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
-    }body{
-        width: 100%;
     }
 
 }
