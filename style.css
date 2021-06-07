@@ -364,6 +364,10 @@ strong
 {
     font-size: large;
 }
+.center-block image-resize-mode
+{
+    width: 100%;
+}
 
 
 @media (min-width: 768px) {
@@ -827,8 +831,8 @@ h1 {
 
 @media (max-width: 1024px) {
     .bloc {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
@@ -1032,8 +1036,8 @@ h1 {
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
 }
@@ -1041,6 +1045,14 @@ h1 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }.fa{
+        padding-right: 10px;
     }
+    
+    .bloc{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
 
 }
