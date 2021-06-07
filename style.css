@@ -980,8 +980,8 @@ h1 {
         margin-left: 10px;
     }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .bloc-xxl,
     .bloc-xl,
