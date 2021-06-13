@@ -363,10 +363,15 @@ a:hover {
 strong
 {
     font-size: large;
+    font-family: serif;
 }
 .center-block image-resize-mode
 {
     width: 100%;
+}
+.col-xs-12
+{
+    font-family: serif;
 }
 
 
