@@ -374,6 +374,13 @@ strong
 {
     font-family: serif;
 }
+.social {
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin: auto;
+}
 
 
 @media (min-width: 768px) {
@@ -564,8 +571,8 @@ a[data-lightbox]:hover::before {
     font-weight: 100;
     z-index: 1;
     position: absolute;
-    top: calc(50%-25%px);
-    left: calc(50%-25%px);
+    top: calc(50%-25px);
+    left: calc(50%-25px);
     line-height: 1.6;
     text-align: center;
     
@@ -718,7 +725,7 @@ p {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {

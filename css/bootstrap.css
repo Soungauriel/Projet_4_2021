@@ -228,6 +228,18 @@ td,
 th {
     padding: 0
 }
+ol,
+ul {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
@@ -1792,6 +1804,7 @@ ul {
     justify-content: center;
     text-decoration: none;
     list-style: none;
+    align-items: center;
 }
 
 ol ol,
@@ -2073,7 +2086,10 @@ pre code {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .col-xs-1,
