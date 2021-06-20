@@ -571,8 +571,8 @@ a[data-lightbox]:hover::before {
     font-weight: 100;
     z-index: 1;
     position: absolute;
-    top: calc(50%-25px);
-    left: calc(50%-25px);
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
     line-height: 1.6;
     text-align: center;
     
