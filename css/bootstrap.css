@@ -1436,7 +1436,8 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     max-width: 100%;
-    height: auto
+    height: auto;
+    width: 100%;
 }
 
 .img-rounded {
@@ -1783,8 +1784,14 @@ a.bg-danger:hover {
 
 ol,
 ul {
-    margin-top: 0;
-    margin-bottom: 10px
+    margin-top: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
 }
 
 ol ol,
