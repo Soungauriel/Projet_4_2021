@@ -319,6 +319,7 @@ a:hover {
     margin-right: -16px;
     float: right;
     z-index: 1;
+    flex-direction: inherit;
 }
 
 .nav > li {
@@ -788,6 +789,7 @@ h1 {
 
 .tc-white {
     color: #F3976C!important;
+    font-size: small;
 }
 
 .btn-atomic-tangerine {
