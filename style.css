@@ -377,6 +377,7 @@ strong
 .form-group
 {
     text-align: center;
+    padding-right: 15px;
 }
 
 @media (min-width: 768px) {
