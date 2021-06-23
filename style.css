@@ -374,7 +374,10 @@ strong
 {
     font-family: serif;
 }
-
+.form-group
+{
+    text-align: center;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
