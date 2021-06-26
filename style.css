@@ -320,12 +320,14 @@ a:hover {
     float: right;
     z-index: 1;
     flex-direction: inherit;
+    list-style: none;
 }
 
 .nav > li {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    padding: inherit;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -377,7 +379,7 @@ strong
 .form-group
 {
     text-align: center;
-    padding-right: 15px;
+    padding-right: 50px;
 }
 
 @media (min-width: 768px) {
@@ -671,7 +673,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -723,8 +725,8 @@ p {
     max-width: 400px;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
     margin: auto;
+    padding: 10px;
 }
 
 h2 {
@@ -927,7 +929,7 @@ h1 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
+        float: none;
     }
     .navbar.row {
         margin-left: 0;
