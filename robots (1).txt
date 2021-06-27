@@ -6,4 +6,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: http://https://soungauriel.github.io/Projet_4_2021/sitemap.xml
+Sitemap:https://soungauriel.github.io/Projet_4_2021/sitemap.xml
