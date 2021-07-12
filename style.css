@@ -24,7 +24,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF,no-repeat center center;
+    background-color: white;
 }
 
 .bloc {
@@ -379,13 +379,9 @@ strong
 .form-group
 {
     text-align: center;
-    padding-right: 50px;
+    
 }
-.text-center
-{
-    list-style: none;
-    text-decoration: none;
-}
+
 
 @media (min-width: 768px) {
     .site-navigation {
