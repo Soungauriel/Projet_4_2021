@@ -1058,14 +1058,13 @@ h1 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
-    }.fa{
-        padding; 0 6px;
+    }
+    .fa{
+        padding: 0 6px;
     }
     
     .bloc{
         padding-right: 20px;
         padding-left: 20px;
     }
-
-
 }
